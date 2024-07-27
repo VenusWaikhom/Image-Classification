@@ -1,0 +1,14 @@
+              precision    recall  f1-score   support
+
+        Bike       0.94      0.91      0.93       207
+         Car       0.95      0.93      0.94       203
+         Cat       0.86      0.81      0.84       198
+       Chair       0.88      0.94      0.91       217
+         Cup       0.94      0.92      0.93       205
+         Dog       0.83      0.81      0.82       196
+      Person       0.79      0.88      0.84       182
+        Sofa       0.94      0.95      0.94        96
+
+    accuracy                           0.89      1504
+   macro avg       0.89      0.89      0.89      1504
+weighted avg       0.89      0.89      0.89      1504

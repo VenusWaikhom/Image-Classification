@@ -1,0 +1,47 @@
+Model: "sequential_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_40 (Conv2D)          (None, 254, 254, 16)      448       
+                                                                 
+ conv2d_41 (Conv2D)          (None, 252, 252, 16)      2320      
+                                                                 
+ max_pooling2d_12 (MaxPoolin  (None, 126, 126, 16)     0         
+ g2D)                                                            
+                                                                 
+ conv2d_42 (Conv2D)          (None, 124, 124, 32)      4640      
+                                                                 
+ conv2d_43 (Conv2D)          (None, 122, 122, 32)      9248      
+                                                                 
+ max_pooling2d_13 (MaxPoolin  (None, 61, 61, 32)       0         
+ g2D)                                                            
+                                                                 
+ conv2d_44 (Conv2D)          (None, 59, 59, 64)        18496     
+                                                                 
+ conv2d_45 (Conv2D)          (None, 57, 57, 64)        36928     
+                                                                 
+ conv2d_46 (Conv2D)          (None, 55, 55, 64)        36928     
+                                                                 
+ max_pooling2d_14 (MaxPoolin  (None, 27, 27, 64)       0         
+ g2D)                                                            
+                                                                 
+ conv2d_47 (Conv2D)          (None, 25, 25, 128)       73856     
+                                                                 
+ conv2d_48 (Conv2D)          (None, 23, 23, 128)       147584    
+                                                                 
+ conv2d_49 (Conv2D)          (None, 21, 21, 128)       147584    
+                                                                 
+ global_average_pooling2d_4   (None, 128)              0         
+ (GlobalAveragePooling2D)                                        
+                                                                 
+ dense_8 (Dense)             (None, 128)               16512     
+                                                                 
+ dropout_4 (Dropout)         (None, 128)               0         
+                                                                 
+ dense_9 (Dense)             (None, 8)                 1032      
+                                                                 
+=================================================================
+Total params: 495,576
+Trainable params: 495,576
+Non-trainable params: 0
+_________________________________________________________________
